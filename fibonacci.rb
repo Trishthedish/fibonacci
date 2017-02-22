@@ -1,4 +1,5 @@
 # fibonacci sequence
+# solved recursively 
 require 'Benchmark' # Ruby Module
 
 time = Benchmark.realtime do # open Benchmark block
