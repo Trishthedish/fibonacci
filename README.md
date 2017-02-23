@@ -17,3 +17,5 @@ n | fibonacci's Value | Time Elapsed in Seconds
 30 | 832040 | 0.100245 seconds
 35 | 9227465 | 1.060006 seconds
 40 | 102334155 | 11.580249 seconds
+
+demonstrates that as long as n is a relatively small number, we won’t really run into any problems. However, our fibonacci method has an exponential runtime, meaning that as the input n increases, it will take more and more time to run the method.
