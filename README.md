@@ -11,7 +11,7 @@
 
 ---
 
-#### fibonacci Run Time Chart
+## Fibonacci Run Time Chart
 value of n | fibonacci's Value | Time Elapsed Recursive Solution | Time Elapsed Cache Solution| Time Elapsed Constructive |
 ---|------------------|------------------------|-------|--------|
 3 | 2 | 3.7e-05 seconds | 3.9e-05 seconds | 3.9e-05 seconds
@@ -31,13 +31,16 @@ value of n | fibonacci's Value | Time Elapsed Recursive Solution | Time Elapsed 
 60 |           |                   |                 | 5.1e-05 seconds
 70 |           |                   |                 | 5.3e-05 seconds
 
-_Recursive Solution_
+### _Recursive Solution_
 demonstrates that as long as n is a relatively small number, we won’t really run into any problems. However, our fibonacci method has an exponential runtime. As the input n increases, it will take more and more time to run the method.
 
 Problem each operation contains 2 sub-operations.
 
-_Cache Solution_
+### _Cache Solution_
 Sacrifice some disk space as we hold on to data longer, but it will be able to evaluate inputs significantly faster.
+
+### _Constructive Solution_
+
 
 
 ---
