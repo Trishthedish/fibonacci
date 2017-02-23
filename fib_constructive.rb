@@ -14,3 +14,6 @@ puts "#{n}'s fibonacci value is #{fibonacci(n)}"
 end # close benchmark block
 
 puts "Time elapsed #{time} seconds"
+
+
+# contstructive [O(n) run time, O(1) storage]
