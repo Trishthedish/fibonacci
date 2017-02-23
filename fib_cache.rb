@@ -5,7 +5,7 @@ time = Benchmark.realtime do # open Benchmark block
 
 @cache = {}; @cache[1] = 1; @cache[2] = 1
 
-n = 10
+n = 40
 def fibonacci(n)
   @cache[n] ||= fibonacci(n-1) + fibonacci(n-2)
 end
