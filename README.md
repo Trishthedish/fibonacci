@@ -45,6 +45,13 @@ Sacrifice some disk space as we hold on to data longer, but it will be able to e
 
 ### _Memoized_
 
-
-
 ---
+Big "oh" | What it means
+---------|--------------
+O(1)     | Constant
+O(n)     | Linear
+O(n^2)   | Quadratic
+O(n^3)   | Cubic
+O(2n)    | Exponential
+O(n!)    | Factorial
+O(log n) | Logarithmic
